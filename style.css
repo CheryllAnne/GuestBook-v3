@@ -1,0 +1,159 @@
+*{
+    margin:0 ;
+    padding: 0;
+    text-align: center;
+    /*background-image: url("images/colours.jpg");
+    background-size: cover;
+    background-position: center;*/
+    font-family: sans-serif;
+}
+
+
+.menu-bar{
+    background-image: linear-gradient(to right, white, lightpink ,coral);
+    background-repeat: repeat-x;
+}
+
+.nav-link{
+    font-size: 16px;
+    color: white !important;
+    margin: 2px;
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.menu-bar .navbar-toggler{
+    padding-right: 0;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.menu-bar .navbar-toggler-icon{
+    color: white;
+}
+
+.banner{
+    height: 60vh;
+    background-image: url(images/guestbook4.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    color: white;
+    box-shadow: hotpink;
+}
+
+.banner h1{
+    padding-top: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-shadow: 2px 2px lightpink;
+    font-family: "Lucida Handwriting";
+    color: black;
+}
+
+.chat-form{
+    padding: 20px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right, coral, hotpink, white, hotpink, coral);
+    border-radius: 5px;
+    border-color: white !important;
+}
+
+.chat-form .form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow: none !important;
+    border-color: deeppink !important;
+}
+
+.chat-form .btn-primary{
+    display: inline-flex;
+    box-shadow: none !important;
+    border-radius: 10px;
+    border: deeppink;
+    margin: 5px;
+    padding: 5px 20px;
+    color: deeppink;
+    background-color: black;
+}
+
+.form-inline .btn-outline-success{
+    border-color: black !important;
+    color: black;
+}
+
+.booklogs{
+    padding: 20px 5px;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right, lightpink, white);
+    border-radius: 5px;
+    border-color: deeppink !important;
+    background-repeat: no-repeat;
+}
+
+.pagination > li > a
+{
+    background-color: black;
+    color: deeppink;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: black;
+    background-color: lightpink;
+    border-color: deeppink;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: purple;
+    border: solid 1px purple;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: purple;
+    border: solid 1px purple;
+}
+
+.counter{
+    position: center;
+}
+
+h2{
+    font-size: 12px;
+    color: darkcyan;
+}
+
+.booklogs h3{
+    font-size: 16px;
+    color: deeppink;
+}
+
+.booklogs h4 {
+    font-size: 13px;
+    color: black;
+}
+
+h1{
+    font-size: 5px;
+    color: mintcream;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+    /*background: transparent; border: none; color: mintcream; font-size: 16px; font-weight: bold; padding-left: 50px; margin-bottom: 16px;'>*/
+
